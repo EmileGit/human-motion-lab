@@ -19,6 +19,7 @@ def main(config: DictConfig) -> Optional[float]:
 
     human_feat = sample["human_feat"]
     # --------------------------------------------------------------------------------- #
+    # Complete this part for `Code 2`
     num_frames = human_feat.shape[0]
     num_feats = human_feat.shape[1]
     # --------------------------------------------------------------------------------- #
